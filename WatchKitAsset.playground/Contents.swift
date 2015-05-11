@@ -49,5 +49,5 @@ showAnimation(name: "Twitter", size: assetSize, framerate: framerate, animation:
 showAnimation(name: "Apple", size: assetSize, framerate: framerate, animation: appleAnimation)
 
 //: When finished, the animations can be saved into '~/Documents/Shared Playground Data/' as a list of PNG files. You can then easily drop these files into your asset catalog. The directory has to be created manually to let this playground write the images to disk.
-// createAssets(name: "twitter", duration: 0.5, size: assetSize, framerate: framerate, animation: twitterAnimation)
+// createAssets(name: "twitter", duration: 2.0, size: assetSize, framerate: framerate, animation: twitterAnimation)
 // createAssets(name: "apple", duration: 1.0, size: assetSize, framerate: framerate, animation: appleAnimation)
