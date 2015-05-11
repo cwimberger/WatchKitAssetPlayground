@@ -1,10 +1,12 @@
 # WatchKitAssetPlayground
 A swift playground for creating awesome animations for your WatchKit Apps.
 
+![Playground](/readme-assets/playground.png?raw=true "Playground")
+
 Examples:
 
-![Apple Activity Indicator Animation](/readme-assets/apple.gif "Apple Activity Indicator Animation")
-![Twitter Activity Indicator Animation](/readme-assets/twitter.gif "Twitter Activity Indicator Animation")
+![Apple Activity Indicator Animation](/readme-assets/apple.gif?raw=true "Apple Activity Indicator Animation")
+![Twitter Activity Indicator Animation](/readme-assets/twitter.gif?raw=true "Twitter Activity Indicator Animation")
 
 These little animations can be implemented in a functional way:
 
@@ -37,3 +39,5 @@ When you're finished, export all needed PNGs using the createAssets function. It
 ```
 createAssets(name: "twitter", duration: 2.0, size: assetSize, framerate: 20, animation: anim)
 ```
+
+![Generated PNGs](/readme-assets/generated-pngs.png?raw=true "Generated PNGs")
